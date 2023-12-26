@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_registers",
+  "info": {
+    "singularName": "user-register",
+    "pluralName": "user-registers",
+    "displayName": "user_register",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "matches_played": {
+      "type": "json"
+    }
+  }
+}

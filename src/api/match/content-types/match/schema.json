@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "matches",
+  "info": {
+    "singularName": "match",
+    "pluralName": "matches",
+    "displayName": "Match"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Date": {
+      "type": "string"
+    },
+    "Place": {
+      "type": "string"
+    },
+    "TeamA": {
+      "type": "json"
+    },
+    "TeamB": {
+      "type": "json"
+    },
+    "Result": {
+      "type": "string"
+    }
+  }
+}
