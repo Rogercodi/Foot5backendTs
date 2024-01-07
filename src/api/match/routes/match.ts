@@ -1,7 +1,14 @@
-/**
- * match router
- */
+export default {
+    routes: [
+        {
+            method: 'GET',
+            path: '/matches',
+            handler: 'match.findAll',
+            config: {
+                policies: [],
+                auth: false
+            }
+        }
+    ]
+}
 
-import { factories } from '@strapi/strapi';
-
-export default factories.createCoreRouter('api::match.match');

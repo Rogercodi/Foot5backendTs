@@ -42,4 +42,6 @@ describe("Match", () => {
     match.setTeam1([player1])
     expect(match.getTeam1()).toEqual([player1]);
   })
+
+  
 });
